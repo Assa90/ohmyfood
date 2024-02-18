@@ -92,6 +92,11 @@ body {
   border-radius: 20px;
   background: #9356DC;
   text-align: center;
+  margin-left: -8px;
+  color: white;
+}
+.btn .icon-color {
+  color: #7E7E7E;
 }
 
 /****** Section Restaurants  ***********/
