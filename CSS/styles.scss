@@ -77,3 +77,34 @@ body{
         transform: scale(1.1);
     }
 }
+
+/****** Section Fonctionnement  ***********/
+
+.titre-h1{
+    margin-left: 15px;
+}
+
+
+.fonc-direction{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn{
+    width: 90%;
+    height: 65px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: #f6f6f6;
+
+        .number{
+            width: 5%;
+            height: 20px;
+            border-radius: 20px;
+            background: $color-purple;
+            text-align: center;
+        }
+}
