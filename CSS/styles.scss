@@ -166,3 +166,34 @@ a{
 .card-rating{
     justify-content: flex-end;
 }
+
+/****** Footer  ***********/
+
+.footerbackground{
+    background-color: $color-greydark;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    color: white;
+    margin-left: 20px;
+    gap: 10px;
+        .footer-a{
+            color: white;
+            text-decoration: none;
+        }
+
+}
+.footer-logo{
+    display: flex;
+    height: 30px;
+    width:  40%;
+    
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
