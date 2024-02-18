@@ -1,1 +1,11 @@
-/*# sourceMappingURL=styles.css.map */
+/****** General ***********/
+body {
+  display: flex;
+  margin: inherit;
+}
+
+.main-container {
+  width: 100%;
+  min-width: 320px;
+  max-width: 1440px;
+}/*# sourceMappingURL=styles.css.map */

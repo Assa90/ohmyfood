@@ -1,0 +1,22 @@
+/****** General ***********/
+$color-purple-gradient: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123,93%);
+$color-grey : #f3f3f3;
+$color-greydark:#353535;
+$color-purple: #9356DC;
+$color-blue-2: #003A68;
+$color-blue: #89C8FA;
+$color-green-font: #008766;
+$color-green: #99E2D0;
+
+
+body{
+    display: flex;
+    margin: inherit;
+
+}
+
+.main-container{
+    width: 100%;
+    min-width: 320px;
+	max-width: 1440px;
+}
