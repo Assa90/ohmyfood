@@ -41,6 +41,7 @@ body{
     justify-content: center;
     gap: 10px;
     padding: 15px;
+    box-shadow: 6px 4px 4px 3px $color-greydark;
 }
 
 .placeholder{
@@ -99,6 +100,8 @@ body{
     border-radius: 20px;
     border-color: transparent;
     background-color: #f6f6f6;
+    box-shadow: 5px 5px 8px 5px $color-grey;
+
 
         .number{
             width: 5%;
