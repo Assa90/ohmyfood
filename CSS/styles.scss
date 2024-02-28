@@ -21,6 +21,11 @@ body{
 	max-width: 1440px;
 }
 
+a{
+    text-decoration: none;    
+}
+
+
 /****** HEADER ***********/
 
 
@@ -54,6 +59,7 @@ body{
     opacity: 1;
 }
 
+
 /****** SECTION ***********/
 
 .sectionbackground{
@@ -62,27 +68,32 @@ body{
     padding-top: 5%;
     padding-bottom: 10%;
     text-align: center;
-    
-    
-}
-
-.btngradient{
-    width: 60%;
-    height: 50px;
-    justify-content: center;
-    border-radius: 25px;
-    color: white;
-    border-color:transparent;
-    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-    &:hover{
-        transform: scale(1.1);
     }
-}
+
+    .btngradient{
+        width: 60%;
+        height: 50px;
+        margin: 25px 0 30px 0;
+        border-radius: 25px;
+        color: white;
+        border-color:transparent;
+        background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+        
+            .com-direc{
+            text-align: center;
+        }
+        &:hover{
+            transform: scale(1.1);
+        }
+    
+        
+    }
 
 /****** Section Fonctionnement  ***********/
 
 .titre-h1{
     margin-left: 15px;
+    padding-top: 30px;
 }
 
 
@@ -158,7 +169,6 @@ body{
 .badge{
     position: absolute;
     z-index: 1;
-    width: 10px;
 }
 
 /****** Footer  ***********/
@@ -191,3 +201,63 @@ body{
     padding-top: 10px;
 
 }
+
+
+
+/****** Autres PAGE  ***********/
+
+.img-header{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+
+.background{
+    background-color: $color-grey;
+    border-radius: 30px 30px 0 0;
+    margin-top: -25px;
+    position: absolute;
+    z-index: 1;
+
+        .title{
+            display: flex;
+            justify-content: space-around;
+
+        }
+}
+
+.btn-menu{
+    width: 90%;
+    height: 65px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: white;
+    
+
+        .menu-content{
+            display: block;
+            flex-direction: row;
+        }
+
+        .para{
+            display: flex;
+            justify-content: space-between;
+        }
+
+    }
+    
+    h2{
+        font-size: 20px;
+        font-weight: 100;
+        border-bottom:solid;    
+        border-width: 3px;  
+        border-color: $color-green;
+    }
+
+    h4{
+        justify-content: flex-start;
+        padding-bottom: 0;
+    }
