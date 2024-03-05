@@ -19,7 +19,7 @@ a {
   display: flex;
   height: 30px;
   width: 40%;
-  margin-left: 40%;
+  margin-left: 28%;
   padding-bottom: 10px;
   padding-top: 10px;
 }
@@ -142,9 +142,17 @@ a {
   color: black;
 }
 
+.card-btn {
+  display: flex;
+  position: absolute;
+  left: 90%;
+  top: 75%;
+}
+
 .badge {
   position: absolute;
   z-index: 1;
+  right: -8px;
 }
 
 /****** Footer  ***********/
@@ -187,7 +195,7 @@ a {
   background-color: #f3f3f3;
   border-radius: 30px 30px 0 0;
   margin-top: -25px;
-  position: absolute;
+  position: relative;
   z-index: 1;
 }
 .background .title {
@@ -198,29 +206,32 @@ a {
 .btn-menu {
   width: 90%;
   height: 65px;
-  margin-left: 10px;
   border-radius: 20px;
   border-color: transparent;
   background-color: white;
 }
 .btn-menu .menu-content {
-  display: block;
-  flex-direction: row;
+  text-align: left;
+  padding-left: 10px;
+  margin-top: -12px;
 }
-.btn-menu .para {
-  display: flex;
-  justify-content: space-between;
-}
-
-h2 {
-  font-size: 20px;
-  font-weight: 100;
-  border-bottom: solid;
-  border-width: 3px;
-  border-color: #99E2D0;
+.btn-menu .price {
+  text-align: right;
 }
 
-h4 {
-  justify-content: flex-start;
-  padding-bottom: 0;
+.h2-title {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+hr {
+  height: 3px;
+  width: 50px;
+  text-align: left;
+  color: #99E2D0;
+  background-color: #99E2D0;
+  border: 0;
 }/*# sourceMappingURL=styles.css.map */
