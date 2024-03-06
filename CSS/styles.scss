@@ -74,22 +74,21 @@ a{
     .btngradient{
         width: 60%;
         height: 50px;
-        margin: 25px 0 30px 0;
         border-radius: 25px;
         color: white;
         border-color:transparent;
         background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
         box-shadow: 5px 5px 5px 5px $color-purple;
-
-            .com-direc{
-            text-align: center;
-        }
+        
+        
         &:hover{
             transform: scale(1.1);
         }
     
         
     }
+
+    
 
 /****** Section Fonctionnement  ***********/
 
@@ -134,19 +133,17 @@ a{
 
 .restaurant-card {
     display: flex;
-    width: 90%;
+    width: 100%;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 2px;
     gap: 20px;
+
+    .card {
+        background-color: white;
+        border-radius: 20px;
+        filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    }
 }
-
-
-.card {
-    background-color: white;
-    border-radius: 20px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-}
-
 
 
 .card-img{
@@ -155,6 +152,13 @@ a{
     object-fit: cover;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+
+}
+
+.badge{
+    position: absolute;
+    z-index: 1;
+    right: 8px;
 }
 
 .card-content{
@@ -162,21 +166,19 @@ a{
     text-align: left;
     padding-left: 10px;
     color: black;
+
+    .card-btn{
+        display: flex;
+        position: absolute;
+        left: 90%;
+        top: 75%;
+    
+    }
 }
 
-.card-btn{
-    display: flex;
-    position: absolute;
-    left: 90%;
-    top: 75%;
 
-}
 
-.badge{
-    position: absolute;
-    z-index: 1;
-    right: -8px;
-}
+
 
 /****** Footer  ***********/
 
@@ -241,6 +243,7 @@ a{
     border-radius: 20px;
     border-color: transparent;
     background-color: white;
+    margin-left: 5%;
     
 
         .menu-content{
@@ -250,7 +253,8 @@ a{
         }
 
         .price{
-            text-align: right;
+            text-align: end;
+    
         }
     }
 
@@ -275,4 +279,8 @@ a{
         border: 0;
     }
 
+    .commander{
+        margin: 25px 0 50px 70px;
+    }
+    
 
