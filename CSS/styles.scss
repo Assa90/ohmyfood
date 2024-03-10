@@ -159,6 +159,7 @@ a{
     position: absolute;
     z-index: 1;
     right: 8px;
+    margin-top: 5px;
 }
 
 .card-content{
@@ -244,15 +245,23 @@ a{
     border-color: transparent;
     background-color: white;
     margin-left: 5%;
+    margin-bottom: 20px;
     
 
         .menu-content{
+            display: flex;
             text-align: left;
             padding-left: 10px;
             margin-top: -12px;
         }
 
+        .h3-p{
+            width: 70%;
+            line-height: 14px;
+        }
+
         .price{
+            width: 30%;
             text-align: end;
     
         }
