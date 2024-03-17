@@ -26,16 +26,26 @@ a{
 }
 
 
+
 /****** HEADER ***********/
 
+.header-direction{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
 
 .header-logo{
-    display: flex;
     height: 30px;
     width:  40%;
     margin-left: 28%;
     padding-bottom: 10px;
     padding-top: 10px;
+}
+
+.fa-arrow-left{
+    color: black;
+    padding-top: 20px;
 }
 
 .location{
@@ -94,7 +104,14 @@ a{
 
 .titre-h1{
     margin-left: 15px;
-    padding-top: 30px;
+    padding-top: 20px;
+
+    @media all and (min-width: 768px) and (max-width: 1440px){
+            margin-left: 220px;
+            padding-top: 30px;
+            align-items: center;
+}
+
 }
 
 
@@ -102,6 +119,7 @@ a{
     display: flex;
     align-items: center;
     gap: 20px;
+   
 }
 
 .btn{
@@ -114,6 +132,12 @@ a{
     background-color: #f6f6f6;
     box-shadow: 5px 5px 5px 5px $color-grey;
 
+    @media all and (min-width: 768px) and (max-width: 1440px){
+        width: 25%;
+        height: 65px;
+    
+    }
+
 
         .number{
             width: 5%;
@@ -123,10 +147,27 @@ a{
             text-align: center;
             margin-left: -8px;
             color: white;
+
+            @media all and (min-width: 768px) and (max-width: 1440px){
+                width: 8%;
+                font-size: 14px;
+            }
+
         }
         .icon-color{
             color: #7E7E7E;
         }
+}
+
+@media all and (min-width: 768px) and (max-width: 1440px){
+    .btn-direction{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+   }
+
+
 }
 
 /****** Section Restaurants  ***********/
@@ -142,10 +183,23 @@ a{
     padding: 20px;
     gap: 25px;
 
+    @media all and (min-width: 768px) and (max-width: 1440px){
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 80px;
+        justify-content: center;
+    }
+
     .card {
+        width: 100%;
         background-color: white;
         border-radius: 20px;
         filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    
+        @media all and (min-width: 768px) and (max-width: 1440px){
+            width: 32%;
+        }
     }
 }
 
@@ -199,6 +253,13 @@ a{
     color: white;
     margin-left: 20px;
     gap: 10px;
+
+    @media all and (min-width: 768px) and (max-width: 1440px){
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 20px 15px 20px 15px;
+    }
+
         .footer-a{
             color: white;
             text-decoration: none;
@@ -213,6 +274,10 @@ a{
     margin-left: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
+
+    @media all and (min-width: 768px) and (max-width: 1440px){
+        
+    }
 
 }
 
@@ -237,8 +302,19 @@ a{
 
         .title{
             display: flex;
-            justify-content: space-around;
+        }
 
+            .menu-h1{
+                width: 70%;
+                margin-left: 15px;
+        }
+
+            .heart{
+                display: flex;
+                width: 30%;
+                justify-content: center;
+                align-items: center;
+                
         }
 }
 
@@ -305,17 +381,15 @@ a{
         font-weight: 300;
         line-height: 19px;
         letter-spacing: 0em;
-        padding-left: 5px;
+        padding-left: 15px;
 
             
     }
 
     hr{
-        display: flex;
-        
         height: 3px;
-        width: 20px;
-        padding-left: 5px;
+        width: 30px;
+        margin-left: 15px;
         color: $color-green;
         background-color: $color-green;
         border: 0;
@@ -326,27 +400,3 @@ a{
     }
     
 
-/****** Media queries ***********/
-/* (desktop, 1440px) */
-@media (max-width: 1440px){
-
-
-    /****** Section Fonctionnement  ***********/
-
-.titre-h1{
-    margin-left: 120px;
-    padding-top: 30px;
-}
-
-   .btn-direction{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 20px;
-   }
-
-    .btn{
-        width: 25%;
-        height: 65px;
-    }
-}
