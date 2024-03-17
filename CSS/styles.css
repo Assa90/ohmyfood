@@ -261,6 +261,8 @@ a {
 .background .menu-h1 {
   width: 70%;
   margin-left: 15px;
+  font-size: 18px;
+  font-style: italic;
 }
 .background .heart {
   display: flex;
