@@ -224,8 +224,10 @@ a {
 @media all and (min-width: 768px) and (max-width: 1440px) {
   .footer {
     flex-direction: row;
-    justify-content: flex-end;
-    padding: 20px 15px 20px 15px;
+    padding: 0;
+    margin-left: 0;
+    justify-content: center;
+    top: 50%;
   }
 }
 .footer .footer-a {
@@ -241,6 +243,12 @@ a {
   padding-bottom: 10px;
   padding-top: 10px;
 }
+@media all and (min-width: 768px) and (max-width: 1440px) {
+  .footer-logo {
+    margin-left: 70%;
+  }
+}
+
 /****** Autres PAGE  ***********/
 .img-header {
   width: 100%;
@@ -248,13 +256,18 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .background {
   background-color: #f3f3f3;
   border-radius: 30px 30px 0 0;
   margin-top: -25px;
   position: relative;
   z-index: 1;
+}
+@media all and (min-width: 768px) and (max-width: 1440px) {
+  .background {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
 }
 .background .title {
   display: flex;
