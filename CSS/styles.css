@@ -256,6 +256,17 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media all and (min-width: 768px) and (max-width: 1440px) {
+  .img-header {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+.fa-arrow-left {
+  margin-left: 15px;
+}
+
 .background {
   background-color: #f3f3f3;
   border-radius: 30px 30px 0 0;
@@ -293,6 +304,11 @@ a {
   background-color: white;
   padding: 0 10px 0 10px;
   margin: 0 10px 20px 10px;
+}
+@media all and (min-width: 768px) and (max-width: 1440px) {
+  .btn-menu {
+    text-align: center;
+  }
 }
 .btn-menu .menu-content {
   display: flex;
@@ -353,4 +369,9 @@ hr {
 
 .commander {
   margin: 25px 0 50px 70px;
+}
+@media all and (min-width: 768px) and (max-width: 1440px) {
+  .commander {
+    margin-left: 200px;
+  }
 }/*# sourceMappingURL=styles.css.map */

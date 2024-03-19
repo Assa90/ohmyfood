@@ -294,11 +294,15 @@ a{
     height: 200px;
     object-fit: cover;
     
-    @media all and (min-width: 768px) and (max-width: 1440px){
-        
+        @media all and (min-width: 768px) and (max-width: 1440px){
+            object-fit :cover;
     }
 }
 
+.fa-arrow-left{
+    margin-left: 15px;
+
+}
 
 .background{
     background-color: $color-grey;
@@ -340,6 +344,11 @@ a{
     background-color: white;
     padding: 0 10px 0 10px;
     margin: 0 10px 20px 10px;
+
+        
+    @media all and (min-width: 768px) and (max-width: 1440px){
+        text-align: center;
+    }
     
 
         .menu-content{
@@ -412,6 +421,11 @@ a{
 
     .commander{
         margin: 25px 0 50px 70px;
+
+        @media all and (min-width: 768px) and (max-width: 1440px){
+            
+            margin-left: 200px ;
+        }
     }
     
 
