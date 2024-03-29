@@ -69,6 +69,13 @@ a {
   text-align: center;
 }
 
+h1 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+}
+
 .btngradient {
   width: 60%;
   height: 50px;
@@ -289,11 +296,21 @@ a {
   font-size: 18px;
   font-style: italic;
 }
+@media all and (min-width: 768px) and (max-width: 1440px) {
+  .background .menu-h1 {
+    text-align: center;
+  }
+}
 .background .heart {
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+}
+@media all and (min-width: 768px) and (max-width: 1440px) {
+  .background .heart {
+    justify-content: flex-start;
+  }
 }
 
 .btn-menu {
@@ -307,7 +324,8 @@ a {
 }
 @media all and (min-width: 768px) and (max-width: 1440px) {
   .btn-menu {
-    text-align: center;
+    width: 50%;
+    margin-left: 220px;
   }
 }
 .btn-menu .menu-content {
@@ -317,13 +335,13 @@ a {
   font-size: 11px;
 }
 .btn-menu .h3-p {
-  width: 70%;
+  width: 80%;
   line-height: 12px;
   text-overflow: inherit;
 }
 .btn-menu .price {
   display: flex;
-  width: 30%;
+  width: 20%;
   justify-content: flex-end;
   align-items: flex-end;
 }
@@ -332,28 +350,34 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20%;
-  height: 65px;
+  width: 25%;
+  height: 66px;
   background-color: #99E2D0;
-  border-radius: 0 20px 20px 0;
+  border-radius: 0px 20px 20px 0px;
+  margin-top: 10px;
+  display: none;
+}
+.check :hover {
+  display: inherit;
 }
 .check .border-check {
   width: 10px;
-  height: 12px;
+  height: 10px;
   border: 2px solid;
   border-color: white;
   background-color: white;
-  border-radius: 25px;
+  border-radius: 20px;
   padding: 5px;
 }
 .check .fa-check {
   color: #99E2D0;
+  font-size: large;
 }
 
 .h2-title {
   font-size: 16px;
   font-weight: 300;
-  line-height: 19px;
+  line-height: 0px;
   letter-spacing: 0em;
   padding-left: 15px;
 }
@@ -361,6 +385,7 @@ a {
 hr {
   height: 3px;
   width: 30px;
+  line-height: 10px;
   margin-left: 15px;
   color: #99E2D0;
   background-color: #99E2D0;
