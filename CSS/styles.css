@@ -6,7 +6,7 @@ body {
 
 .main-container {
   width: 100%;
-  min-width: 320px;
+  min-width: 390px;
   max-width: 1440px;
 }
 
@@ -19,12 +19,13 @@ a {
   display: flex;
   padding-bottom: 10px;
   padding-top: 10px;
+  padding-left: 30px;
 }
 
 .header-logo {
   height: 30px;
-  width: 40%;
-  margin-left: 28%;
+  width: 50%;
+  margin-left: 22%;
   padding-bottom: 10px;
   padding-top: 10px;
 }
@@ -40,7 +41,7 @@ a {
   box-shadow: 50px;
   justify-content: center;
   gap: 10px;
-  padding: 15px;
+  padding: 15px 15px 15px 75px;
   box-shadow: 6px 4px 4px 3px #353535;
 }
 .location .position {
@@ -50,6 +51,10 @@ a {
 .placeholder {
   border: transparent;
   background-color: #eaeaea;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
 }
 
 ::-moz-placeholder {
@@ -289,11 +294,11 @@ h1 {
 
 .footer-logo {
   display: flex;
-  height: 30px;
-  width: 40%;
+  height: 40px;
+  width: 42%;
   margin-left: 20px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 @media all and (min-width: 768px) and (max-width: 1440px) {
   .footer-logo {
@@ -315,10 +320,6 @@ h1 {
   }
 }
 
-.fa-arrow-left {
-  margin-left: 15px;
-}
-
 .background {
   background-color: #f3f3f3;
   border-radius: 30px 30px 0 0;
@@ -337,9 +338,12 @@ h1 {
 }
 .background .menu-h1 {
   width: 70%;
-  margin-left: 15px;
-  font-size: 18px;
+  margin-left: 20px;
+  font-family: Shrikhand;
+  font-size: 28px;
   font-style: italic;
+  font-weight: 400;
+  line-height: 40.82px;
 }
 @media all and (min-width: 768px) and (max-width: 1440px) {
   .background .menu-h1 {
@@ -360,12 +364,12 @@ h1 {
 
 .btn-menu {
   width: 90%;
-  height: 65px;
+  height: 70px;
   border-radius: 20px;
   border-color: transparent;
   background-color: white;
   padding: 0 10px 0 10px;
-  margin: 0 10px 20px 10px;
+  margin: 0 10px 20px 20px;
 }
 @media all and (min-width: 768px) and (max-width: 1440px) {
   .btn-menu {
@@ -377,16 +381,28 @@ h1 {
   display: flex;
   text-align: left;
   margin-top: -12px;
-  font-size: 11px;
 }
 .btn-menu .h3-p {
-  width: 80%;
-  line-height: 12px;
+  width: 90%;
   text-overflow: inherit;
+  line-height: 8px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.btn-menu .h3-p .h3-menu {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+}
+.btn-menu .h3-p .p-menu {
+  font-family: Roboto;
+  font-size: 15.04px;
+  font-weight: 300;
 }
 .btn-menu .price {
   display: flex;
-  width: 20%;
+  width: 10%;
+  font-weight: bold;
   justify-content: flex-end;
   align-items: flex-end;
 }
@@ -420,28 +436,44 @@ h1 {
 }
 
 .h2-title {
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 300;
-  line-height: 0px;
-  letter-spacing: 0em;
-  padding-left: 15px;
+  line-height: 8px;
+  margin-left: 20px;
+}
+@media all and (min-width: 768px) and (max-width: 1440px) {
+  .h2-title {
+    margin-left: 220px;
+  }
 }
 
 hr {
   height: 3px;
-  width: 30px;
-  line-height: 10px;
-  margin-left: 15px;
+  width: 42px;
+  margin-left: 20px;
+  margin-bottom: 15px;
   color: #99E2D0;
   background-color: #99E2D0;
   border: 0;
 }
+@media all and (min-width: 768px) and (max-width: 1440px) {
+  hr {
+    margin-left: 220px;
+  }
+}
 
 .commander {
-  margin: 25px 0 50px 70px;
+  margin: 25px 0 50px 100px;
+  width: 50%;
+  height: 50px;
+  border-radius: 25px;
 }
 @media all and (min-width: 768px) and (max-width: 1440px) {
   .commander {
-    margin-left: 200px;
+    margin-left: 450px;
+    width: 17%;
+    height: 50px;
+    border-radius: 25px;
   }
 }/*# sourceMappingURL=styles.css.map */
